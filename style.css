@@ -1,0 +1,235 @@
+@font-face{
+    font-family: LoveLetter;
+    src: url(./fonts/Lovelt__.ttf);
+}
+@font-face{
+    font-family: kh;
+    src: url(./fonts/Kingdom_Hearts_Font.ttf);
+}
+
+@font-face{
+    font-family: freepixel;
+    src: url(./fonts/FreePixel.ttf);
+}
+
+
+body{
+    background-color: black;
+
+    
+
+}
+.container{
+
+    background-color: black;
+    
+    width: 1350px;
+    height: 1000px;
+    padding: 10px;
+    margin:0 auto;
+    position: relative;
+
+}
+
+.title{
+    font-family: kh;
+    color: silver;
+    font-size: 110px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 3rem ;
+    margin: 0 auto;
+    top: 60px;
+    text-shadow: 
+
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #C0C0C0,
+    ;
+
+    animation: glow 0.50s ease-in-out infinite alternate-reverse;
+    
+}
+@keyframes glow{
+    100%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #C0C0C0,
+        ;
+    }
+    0%{
+        text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px #C0C0C0,
+        ;
+
+    }
+}
+
+.directory{
+    float: left;
+    width: 200px;
+    height: 350px;
+    background-image: url(./space_bg_3.gif);
+    position: relative;
+    border: 1px solid white;
+    top: 100px;
+    margin-left: 20px;
+    
+ 
+
+  
+   
+}
+
+
+.dir{
+
+
+    font-size: 45px;
+    letter-spacing: .2rem;
+    font-family: kh;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    left: 10px;
+    
+    
+}
+hr{
+    border: .5px dotted white;
+}
+p{
+    text-align: center;
+    
+}
+a{
+    color: #fff;
+    font-size: 18px;
+    font-family: LoveLetter;
+}
+
+
+.intro{
+    
+    float: left;
+    width: 275px;
+    height: 500px;
+    background-image: url(./space_bg_3.gif);
+    border: .5px solid white;
+    position: relative;
+    left: 50px;
+    top: 200px;
+
+
+}
+
+
+.introtitle{
+    font-size: 60px;
+    letter-spacing: .2rem;
+    font-family: kh;
+    color: white;
+    position: relative;
+   
+    
+}
+
+.updatetitle{
+    font-size: 60px;
+    letter-spacing: .2rem;
+    font-family: kh;
+    color: white;
+    position: relative;
+   
+    
+}
+
+.introp{
+    margin: 0;
+}
+
+
+
+.updates{
+    float: left;
+    width: 275px;
+    height: 500px;
+    background-image: url(./space_bg_3.gif);
+    border: .5px solid white;
+    position: relative;
+    left: 50px;
+    top: 200px;
+    overflow-y: scroll;
+    
+
+}
+.middletext{
+    color: #fff;
+    font-family: freepixel;
+    text-align: left;
+}
+
+
+.blog{
+    float: left;
+    width: 400px;
+    height: 500px;
+    background-image: url(./space_bg_3.gif);
+    border: 1px solid white;
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+    overflow-y: scroll;
+
+}
+
+.blogtitle{
+    font-size: 60px;
+    letter-spacing: .2rem;
+    font-family: kh;
+    color: white;
+    position: relative;
+}
+
+
+.links{
+    
+    width: 200px;
+    height: 350px;
+    background-image: url(./space_bg_3.gif);
+  
+    border: 1px solid white;
+    top: 500px;
+    position: relative;
+    margin-left: 20px;
+    float: left;
+    top: -10px;
+
+}
+.linktitle{
+
+    font-size: 45px;
+    letter-spacing: .2rem;
+    font-family: kh;
+    color: white;
+    position: relative;
+    left:10px ;
+
+
+}
+.blinkie{
+    width: 140px;
+    height: 20px;
+}
+
+ 
+
+
+
